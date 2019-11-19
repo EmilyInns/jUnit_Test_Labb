@@ -121,7 +121,7 @@ public class CalculatorTest {
     @Tag("Bad")
     public void testSomethingElse(){
         calculator = null;
-
+        System.out.println("Bu");
     }
 
     @BeforeAll
